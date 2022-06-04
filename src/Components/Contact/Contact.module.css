@@ -1,0 +1,59 @@
+/* Our Customer Support Is Ready To Help  */
+
+.coustomerSupportMainContainer {
+  width: 80%;
+  margin: 90px auto auto auto;
+  /* background: rgb(0, 196, 99);
+  background: radial-gradient(
+    circle,
+    rgba(0, 196, 99, 0.6) 2%,
+    rgba(206, 255, 231, 0.6) 50%
+  ); */
+}
+
+.readytoHelpText {
+  color: var(--greenBackground);
+}
+
+.coustomerSupporticon {
+  font-size: 32px;
+  color: var(--greenBackground);
+}
+
+.locationContainer p,
+.EmailContainer p,
+.callOrTextContainer p,
+.customerServiceContainer p {
+  margin: 0px;
+}
+
+.coustomerSupportText {
+  margin-left: 15px;
+  padding: 10px;
+}
+
+/* Send Message */
+
+.sendMessageMainContainer {
+  background-color: #fff;
+  width: 100%;
+  box-shadow: 0px 0px 19px 1px rgba(0, 0, 0, 0.09);
+  -webkit-box-shadow: 0px 0px 19px 1px rgba(0, 0, 0, 0.09);
+  -moz-box-shadow: 0px 0px 19px 1px rgba(0, 0, 0, 0.09);
+  padding: 45px 50px;
+  border-radius: 20px;
+}
+
+.inputDiv {
+  margin-top: 15px;
+}
+
+.inputDiv input,
+textarea {
+  width: 100%;
+  outline: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+  font-family: "Lato-600";
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}

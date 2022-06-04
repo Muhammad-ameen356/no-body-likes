@@ -1,0 +1,35 @@
+.accordion-button:not(.collapsed) {
+  /* background-color: aqua !important; */
+  color: black !important;
+  background-color: white !important;
+}
+
+button:focus:not(:focus-visible) {
+  outline: none !important;
+  border: none;
+}
+
+.accordion-button:focus {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  color: black !important;
+}
+
+.accordion-button {
+  margin-top: 10px !important;
+}
+
+.accordion-button::after {
+  background-image: url("https://www.iconpacks.net/icons/2/free-minus-icon-3108-thumb.png") !important;
+}
+
+.accordion-button.collapsed::after {
+  background-image: url("https://cdn0.iconfinder.com/data/icons/ui-16px-perfect-megapack-line/16/82_Add-512.png") !important;
+}
+
+.accordion-item {
+    box-shadow: 0px 0px 19px 1px rgba(0,0,0,0.09);
+-webkit-box-shadow: 0px 0px 19px 1px rgba(0,0,0,0.09);
+-moz-box-shadow: 0px 0px 19px 1px rgba(0,0,0,0.09);
+}

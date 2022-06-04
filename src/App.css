@@ -1,0 +1,168 @@
+:root {
+  --greenBackground: #00c463;
+  --lightBlue: #009ce5;
+}
+
+@font-face {
+  font-family: "Lato-900";
+  src: url("./assets/fonts/Lato/Lato-Black.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Lato-800";
+  src: url("./assets/fonts/Lato/Lato-BlackItalic.ttf");
+  font-weight: normal;
+}
+/* @font-face {
+  font-family: "Lato-800";
+  src: url("./assets/fonts/Lato/Lato-ExtraBold.ttf");
+  font-weight: normal;
+} */
+@font-face {
+  font-family: "Lato-700";
+  src: url("./assets/fonts/Lato/Lato-Bold.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Lato-600";
+  src: url("./assets/fonts/Lato/Lato-BoldItalic.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Lato-500";
+  src: url("./assets/fonts/Lato/Lato-Italic.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Lato-400";
+  src: url("./assets/fonts/Lato/Lato-Regular.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Lato-300";
+  src: url("./assets/fonts/Lato/Lato-Light.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Lato-200";
+  src: url("./assets/fonts/Lato/Lato-LightItalic.ttf");
+  font-weight: normal;
+}
+/* @font-face {
+  font-family: "Lato-200";
+  src: url("./assets/fonts/Lato/Lato-ExtraLight.ttf");
+  font-weight: normal;
+} */
+@font-face {
+  font-family: "Lato-100";
+  src: url("./assets/fonts/Lato/Lato-Thin.ttf");
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 65px;
+  font-family: "Lato-600";
+}
+
+h2 {
+  font-size: 60px;
+  font-family: "Lato-600";
+}
+
+h3 {
+  font-size: 40px;
+  font-family: "Lato-600";
+}
+
+h4 {
+  font-size: 36px;
+  font-family: "Lato-600";
+}
+
+h5 {
+  font-size: 30px;
+  font-family: "Lato-600";
+}
+
+h6 {
+  font-size: 24px;
+  font-family: "Lato-600";
+}
+
+.p-28 {
+  font-size: 28px;
+  font-family: "Lato-500";
+}
+
+.p-24 {
+  font-size: 24px;
+  font-family: "Lato-500";
+}
+
+.p-20 {
+  font-size: 20px;
+  font-family: "Lato-600";
+}
+
+.p-18 {
+  font-size: 18px;
+  font-family: "Lato-500";
+}
+
+.p-16 {
+  font-size: 16px;
+  font-family: "Lato-600";
+}
+
+.p-16-500 {
+  font-size: 16px;
+  font-family: "Lato-500";
+}
+
+.button160 {
+  font-family: "Lato-400";
+  width: 160px;
+  height: 50px;
+  border-radius: 4px;
+  background-color: var(--greenBackground);
+  color: white;
+  font-size: 18px;
+  outline: none;
+  border: none;
+}
+
+.button120 {
+  font-family: "Lato-400";
+  width: 120px;
+  height: 50px;
+  border-radius: 4px;
+  background-color: transparent;
+  color: var(--lightBlue);
+  border: 1px solid var(--lightBlue);
+  font-size: 18px;
+}
+
+.getStarted {
+  font-family: "Lato-400";
+  width: 138px;
+  height: 44px;
+  border-radius: 4px;
+  background-color: var(--greenBackground);
+  color: white;
+  font-size: 18px;
+  outline: none;
+  border: none;
+}
+
+.getStartedTransparent {
+  font-family: "Lato-400";
+  width: 160px;
+  height: 50px;
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  border: 1px solid #fff;
+}

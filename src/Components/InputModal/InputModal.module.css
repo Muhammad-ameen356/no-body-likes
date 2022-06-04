@@ -1,0 +1,21 @@
+.checkBoxandForgetPasswordContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.forgetPassText {
+  color: #009ce5 !important;
+  cursor: pointer;
+}
+
+.createNow {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.createNow span {
+  color: var(--greenBackground);
+  cursor: pointer;
+}

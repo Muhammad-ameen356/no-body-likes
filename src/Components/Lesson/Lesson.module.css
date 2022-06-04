@@ -1,0 +1,38 @@
+.mainContainer {
+  margin-top: 60px;
+  margin-left: 20px;
+}
+
+.heading {
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 5px;
+}
+
+.heading .headingText {
+  margin: 0px;
+  padding: 0px 0px 0px 6px;
+  font-size: 24px;
+  color: green;
+  font-style: italic;
+}
+
+.heading .headingIcon {
+  font-size: 30px;
+}
+
+.heading button {
+  background-color: var(--lightBlue);
+  border: 0px;
+  padding: 5px 10px;
+  margin: 0px 0px 0px 10px;
+  width: 120px;
+  border-radius: 8px;
+  color: white;
+}
+
+.contentbody{
+padding: 35px;
+}

@@ -1,0 +1,160 @@
+.subscriptionMainContainer {
+  width: 100%;
+  height: 100vh;
+}
+
+.subscriptionInnerContainer {
+  width: 80%;
+  margin: 50px auto;
+}
+
+.subscriptionText {
+  display: flex;
+  align-items: center;
+}
+
+.subscriptionHeading {
+  color: var(--lightBlue);
+}
+
+.subscriptionImage {
+  width: 100%;
+}
+
+.subscriptionImage img {
+  width: 90%;
+}
+
+.customerSupport {
+  margin-top: 140px;
+}
+
+/* Subscription Container */
+
+.subscriptionPlanMainContainer {
+  margin-top: 90px;
+  text-align: center;
+}
+
+.subscripCard {
+  width: 100%;
+  height: 800px;
+  background-color: #fff;
+  box-shadow: 0px 0px 19px 1px rgba(0, 0, 0, 0.09);
+  -webkit-box-shadow: 0px 0px 19px 1px rgba(0, 0, 0, 0.09);
+  -moz-box-shadow: 0px 0px 19px 1px rgba(0, 0, 0, 0.09);
+  border-radius: 20px;
+}
+.subscripCardHeading {
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+
+  position: relative;
+  background: linear-gradient(
+    90deg,
+    var(--greenBackground) 0%,
+    var(--greenBackground) 100%
+  );
+  border-radius: 20px;
+
+}
+
+.subscripCardHeading::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-repeat: repeat;
+  height: 10px;
+  background-size: 20px 20px;
+  background-image: radial-gradient(
+    circle at 10px -5px,
+    transparent 12px,
+    #fff 13px
+  );
+}
+
+.subscripCardHeading::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-repeat: repeat;
+  height: 15px;
+  background-size: 40px 20px;
+  background-image: radial-gradient(
+    circle at 10px 16px,
+    #fff 12px,
+    transparent 13px
+  );
+}
+
+.subscripCardBody {
+  padding: 0px 10px;
+  height: 75%;
+}
+
+.subscriptionPrice {
+  font-family: "Lato-700";
+  font-size: 60px;
+  height: 15%;
+}
+
+.subscripincluded {
+  overflow: auto;
+  /* border: 2px solid black; */
+  height: 85%;
+  padding: 0px 10px;
+}
+
+.cardFooter {
+  height: 10%;
+  padding: 10px 20px;
+}
+
+.subscripCardContent {
+  text-align: left;
+  background-color: rgb(228, 228, 228);
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-family: "Lato-500";
+  margin-top: 10px;
+}
+
+.buyNowButton {
+  width: 100%;
+  background-color: var(--greenBackground);
+  padding: 10px 30px;
+  border-radius: 5px;
+  color: white;
+  outline: none;
+  border: none;
+}
+
+/* Scroll Bar Customize */
+
+.subscripincluded::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+.subscripincluded::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.subscripincluded::-webkit-scrollbar-thumb {
+  background: var(--greenBackground);
+}
+
+/* Handle on hover */
+.subscripincluded::-webkit-scrollbar-thumb:hover {
+  background: var(--greenBackground);
+}
+
+/* ------------------- */

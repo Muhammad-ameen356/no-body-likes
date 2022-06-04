@@ -1,0 +1,32 @@
+.mainContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+}
+
+.navbarMenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbarMenu ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  /* padding: 0px; */
+  margin: 0px;
+}
+
+.navbarMenu ul li {
+  padding: 0px 10px;
+  font-family: "Lato-400";
+  cursor: pointer;
+}
+
+.loginButton{
+  margin-right: 10px;
+}

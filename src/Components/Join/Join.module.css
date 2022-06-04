@@ -1,0 +1,45 @@
+/* Join Thousand Of happy Students Today */
+
+.joinThounsandMainContainer {
+  margin-top: 90px;
+  width: 100%;
+  background: rgb(0, 162, 209);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 162, 209, 1) 0%,
+    rgba(0, 196, 99, 1) 66%,
+    rgba(0, 196, 99, 1) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.joinThousandBody {
+  width: 80%;
+  margin: auto !important;
+}
+
+.joinThousandText {
+  color: #fff;
+}
+
+.joinThousandText h6 {
+  margin-top: 20px;
+}
+
+.joinThousandbutton {
+  margin-top: 20px;
+}
+
+.joinThousandImage {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.joinThousandImage img {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}

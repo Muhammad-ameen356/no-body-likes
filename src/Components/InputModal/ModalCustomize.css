@@ -1,0 +1,12 @@
+.modal-content{
+    border-radius: 20px !important;
+}
+
+.btn-close {
+  display: none !important;
+}
+
+.modal-header {
+  display: inline !important;
+  text-align: center !important;
+}

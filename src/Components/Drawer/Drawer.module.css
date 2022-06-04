@@ -1,0 +1,48 @@
+:root {
+  --lightGray: #f7f7f7;
+  --lightBlue: #4dbeff;
+}
+
+.mainContainer {
+  /* width: 15%; */
+  height: 100vh;
+  background-color: var(--lightGray);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid rgb(63, 149, 255);
+  box-shadow: 5px 1px 24px -9px rgba(0, 0, 0, 0.33);
+  -webkit-box-shadow: 5px 1px 24px -9px rgba(0, 0, 0, 0.33);
+  -moz-box-shadow: 5px 1px 24px -9px rgba(0, 0, 0, 0.33);
+}
+
+.logoContainer {
+  margin-top: 30px;
+}
+
+.menuContainer ul {
+  padding: 0px;
+}
+
+.menuContainer ul li {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding: 30px 0px 0px 0px;
+}
+
+/* .menuContainer ul li:hover {
+  background-color: var(--lightBlue);
+} */
+
+.menuContainer .menuIcon {
+  font-size: 25px;
+  padding: 0px 15px 0px 0px;
+}
+
+.menuContainer .menuText {
+  font-size: 20px;
+}

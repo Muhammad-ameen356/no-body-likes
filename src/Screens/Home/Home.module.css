@@ -1,0 +1,95 @@
+.firstViewMainContainer {
+  margin-top: 40px;
+  height: 80vh;
+}
+
+.your {
+  color: var(--greenBackground);
+}
+
+.onlineTrafic {
+  color: var(--lightBlue);
+}
+
+.subHeading {
+  margin-top: 20px;
+}
+
+.startCourseContainer {
+  width: 90%;
+  background-color: var(--greenBackground);
+  padding: 20px;
+  border-radius: 15px;
+  margin-top: 30px;
+}
+
+.startCourseContent {
+  text-align: center;
+  color: white;
+  padding: 10px 35px;
+}
+
+.img img {
+  width: 100%;
+}
+
+.selectWithButton {
+  display: flex;
+}
+
+.select {
+  color: black;
+  height: 52px;
+}
+
+.textOrCall {
+  text-align: center;
+  margin-top: 16vh;
+}
+
+.textOrCall p {
+  margin: 0px;
+}
+.textOrCall h3 {
+  color: var(--greenBackground);
+}
+
+/* Complete Course In shortest Time */
+
+.shortestTimeMainContainer {
+  width: 80%;
+  margin: auto;
+}
+
+.shortestTimeDescription {
+  margin-top: 20px;
+}
+
+.shortestTimeButton {
+  margin-top: 20px;
+}
+
+.shortestTime img {
+  width: 80%;
+}
+
+/* Frequently Asked Questions */
+
+.frequentlyAskedMainContainer {
+  margin-top: 90px;
+}
+
+.frequentlyAskedMainContainer h2 {
+  text-align: center;
+}
+
+.frequentlyAskedBody {
+  width: 60%;
+  margin: 40px auto auto auto;
+}
+
+.viewAllFaqsButton {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}

@@ -1,0 +1,30 @@
+.needHelpMainContainer {
+  width: 100%;
+  height: 100vh;
+}
+
+.needHelpInnerContainer {
+  width: 80%;
+  margin: 50px auto;
+}
+
+.needHelpText {
+  display: flex;
+  align-items: center;
+}
+
+.needHelpHeading {
+  color: var(--lightBlue);
+}
+
+.needHelpImage {
+  width: 100%;
+}
+
+.needHelpImage img {
+  width: 90%;
+}
+
+.customerSupport{
+    margin-top: 140px;
+}
