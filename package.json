@@ -1,4 +1,5 @@
 {
+  "homepage": "https://muhammad-ameen356.github.io/no-body-likes",
   "name": "dashboard_v1",
   "version": "0.1.0",
   "private": true,
@@ -7,6 +8,7 @@
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.1.3",
+    "gh-pages": "^5.0.0",
     "react": "^17.0.0",
     "react-bootstrap": "^2.2.2",
     "react-dom": "^17.0.0",
@@ -16,13 +18,16 @@
     "react-router-dom": "^5.3.0",
     "react-scripts": "5.0.0",
     "react-select": "^5.2.2",
+    "styled-components": "^6.0.0-rc.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
